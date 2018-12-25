@@ -7,7 +7,7 @@ Notarized is a small application that checks how many of your applications passe
 
 ## How it works
 
-KISS. Application traverses `/Applications` folder and ivokes `spctl -a -v <path>` on every app found.
+KISS. Application traverses `/Applications` folder and ivokes `spctl -a -v <path>` on every non-appstore app found.
 
 ## Screenshots
 
@@ -16,7 +16,4 @@ KISS. Application traverses `/Applications` folder and ivokes `spctl -a -v <path
 
 ## License
 
-[License](License.md)
-
-
-
+See [License](LICENSE)
