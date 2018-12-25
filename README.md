@@ -7,4 +7,5 @@ Notarized is a small application that checks how many of your applications passe
 
 ## Screenshots
 
-![Test](https://raw.github.com/MacPaw/Notarized/master/assets/screenshot1.png)
+![Screenshot 2](https://github.com/MacPaw/Notarized/raw/master/assets/screenshot2.png)
+![Screenshot 1](https://github.com/MacPaw/Notarized/raw/master/assets/screenshot1.png)
