@@ -4,7 +4,7 @@ Tiny tool to reveal notarized applications
 
 ## What's Inside
 
-Notarized is a small application that checks how many of your applications passed notarization by [Apple Notary Service!](https://developer.apple.com/developer-id/).
+Notarized is a small application that checks how many of your applications passed notarization by [Apple Notary Service](https://developer.apple.com/developer-id/).
 
 ## How it works
 
