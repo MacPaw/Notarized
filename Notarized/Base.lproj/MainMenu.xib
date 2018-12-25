@@ -15,7 +15,6 @@
         <customObject id="Voe-Tx-rLC" customClass="NTAppDelegate">
             <connections>
                 <outlet property="processingLabel" destination="7Ur-JO-hvn" id="TSj-cD-uLn"/>
-                <outlet property="progressIndicator" destination="1r4-Ea-iXo" id="f7a-jZ-gHi"/>
                 <outlet property="tableViewHeightConstraint" destination="SUE-Zw-V7C" id="1zE-1G-kBe"/>
                 <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
             </connections>
@@ -801,6 +800,7 @@
                                                     <constraints>
                                                         <constraint firstItem="bJN-tT-eFr" firstAttribute="centerY" secondItem="436-Q3-6N1" secondAttribute="centerY" id="5pa-aC-gXw"/>
                                                         <constraint firstItem="bJN-tT-eFr" firstAttribute="leading" secondItem="436-Q3-6N1" secondAttribute="leading" constant="2" id="6Nj-0k-RMQ"/>
+                                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="bJN-tT-eFr" secondAttribute="trailing" constant="20" symbolic="YES" id="IBg-VV-Kg3"/>
                                                     </constraints>
                                                     <connections>
                                                         <outlet property="textField" destination="bJN-tT-eFr" id="FAW-rg-utj"/>
@@ -885,18 +885,19 @@
                     <progressIndicator wantsLayer="YES" maxValue="100" style="bar" translatesAutoresizingMaskIntoConstraints="NO" id="1r4-Ea-iXo">
                         <rect key="frame" x="20" y="8" width="607" height="20"/>
                         <connections>
+                            <binding destination="Voe-Tx-rLC" name="maxValue" keyPath="self.applicationsCount" id="sbx-ji-3FG"/>
                             <binding destination="Voe-Tx-rLC" name="hidden" keyPath="self.isProcessing" id="b80-8b-e8b">
                                 <dictionary key="options">
                                     <string key="NSValueTransformerName">NSNegateBoolean</string>
                                 </dictionary>
                             </binding>
-                            <binding destination="Voe-Tx-rLC" name="maxValue" keyPath="self.applicationsCount" id="sbx-ji-3FG"/>
                             <binding destination="Voe-Tx-rLC" name="value" keyPath="self.processedApplicationsCount" previousBinding="sbx-ji-3FG" id="fgq-lR-Mt2"/>
                         </connections>
                     </progressIndicator>
                 </subviews>
                 <constraints>
                     <constraint firstAttribute="trailing" secondItem="1r4-Ea-iXo" secondAttribute="trailing" constant="20" id="14t-uM-LA4"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="7Ur-JO-hvn" secondAttribute="trailing" constant="20" symbolic="YES" id="9lh-z4-Mmo"/>
                     <constraint firstItem="7Ur-JO-hvn" firstAttribute="top" secondItem="XSR-8I-GNF" secondAttribute="bottom" constant="8" id="ABF-Iw-dV6"/>
                     <constraint firstItem="7Ur-JO-hvn" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="20" id="Q6X-Jf-Cq8"/>
                     <constraint firstAttribute="trailing" secondItem="XSR-8I-GNF" secondAttribute="trailing" id="Ruz-iF-AdD"/>
