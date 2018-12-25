@@ -1,9 +1,9 @@
 //
-//  CMTaskRunner.h
-//  CleanMyMac
+//  NTTaskRunner.h
+//  Notarized
 //
-//  Created by Vera Tkachenko on 9/29/09.
-//  Copyright (c) 2009-2013 MacPaw Inc. All rights reserved.
+//  Created by Sergii Kryvoblotskyi on 12/12/18.
+//  Copyright © 2018 MacPaw. All rights reserved.
 //
 
 @import Cocoa;
