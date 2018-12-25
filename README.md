@@ -1,4 +1,5 @@
 # Notarized
+![Logo](https://github.com/MacPaw/Notarized/raw/master/assets/logo.png)
 Tiny tool to reveal notarized applications
 
 ## What's Inside
