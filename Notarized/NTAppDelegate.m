@@ -42,6 +42,11 @@
     [self _loadNotarizationStatusesWithApplications:applications];
 }
 
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender
+{
+    return YES;
+}
+
 #pragma mark -
 
 - (void)_setupLoadingStateWithApplications:(NSArray<NTApplication *> *)applications
