@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A78A94AE21CABCB30079D10B /* NTBoolToCheckmarkTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A78A94AD21CABCB30079D10B /* NTBoolToCheckmarkTransformer.m */; };
+		A78A94B121CAC5DF0079D10B /* NTTaskRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = A78A94B021CAC5DF0079D10B /* NTTaskRunner.m */; };
+		A7B0761F21C18E5700AD998C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7B0761E21C18E5700AD998C /* Assets.xcassets */; };
+		A7B0762221C18E5700AD998C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7B0762021C18E5700AD998C /* MainMenu.xib */; };
+		A7B0762521C18E5700AD998C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B0762421C18E5700AD998C /* main.m */; };
+		A7BA785021D24469007F238A /* NTApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BA784F21D24469007F238A /* NTApplication.m */; };
+		A7BA785221D24577007F238A /* NTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BA785121D24577007F238A /* NTAppDelegate.m */; };
+		A7EC9BAD21D255A300683B7D /* NTApplicationsFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EC9BAC21D255A300683B7D /* NTApplicationsFetcher.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A78A94AC21CABCB30079D10B /* NTBoolToCheckmarkTransformer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTBoolToCheckmarkTransformer.h; sourceTree = "<group>"; };
+		A78A94AD21CABCB30079D10B /* NTBoolToCheckmarkTransformer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTBoolToCheckmarkTransformer.m; sourceTree = "<group>"; };
+		A78A94AF21CAC5DF0079D10B /* NTTaskRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTTaskRunner.h; sourceTree = "<group>"; };
+		A78A94B021CAC5DF0079D10B /* NTTaskRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTTaskRunner.m; sourceTree = "<group>"; };
+		A7B0761821C18E5500AD998C /* Notarized.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notarized.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7B0761B21C18E5500AD998C /* NTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTAppDelegate.h; sourceTree = "<group>"; };
+		A7B0761E21C18E5700AD998C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7B0762121C18E5700AD998C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A7B0762321C18E5700AD998C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7B0762421C18E5700AD998C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7B0762C21C18F8600AD998C /* NTApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTApplication.h; sourceTree = "<group>"; };
+		A7BA784F21D24469007F238A /* NTApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTApplication.m; sourceTree = "<group>"; };
+		A7BA785121D24577007F238A /* NTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTAppDelegate.m; sourceTree = "<group>"; };
+		A7EC9BAB21D255A300683B7D /* NTApplicationsFetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTApplicationsFetcher.h; sourceTree = "<group>"; };
+		A7EC9BAC21D255A300683B7D /* NTApplicationsFetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTApplicationsFetcher.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7B0761521C18E5500AD998C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7B0760F21C18E5500AD998C = {
+			isa = PBXGroup;
+			children = (
+				A7B0761A21C18E5500AD998C /* Notarized */,
+				A7B0761921C18E5500AD998C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7B0761921C18E5500AD998C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7B0761821C18E5500AD998C /* Notarized.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7B0761A21C18E5500AD998C /* Notarized */ = {
+			isa = PBXGroup;
+			children = (
+				A7B0761B21C18E5500AD998C /* NTAppDelegate.h */,
+				A7BA785121D24577007F238A /* NTAppDelegate.m */,
+				A7B0762C21C18F8600AD998C /* NTApplication.h */,
+				A7BA784F21D24469007F238A /* NTApplication.m */,
+				A78A94AC21CABCB30079D10B /* NTBoolToCheckmarkTransformer.h */,
+				A78A94AD21CABCB30079D10B /* NTBoolToCheckmarkTransformer.m */,
+				A7EC9BAB21D255A300683B7D /* NTApplicationsFetcher.h */,
+				A7EC9BAC21D255A300683B7D /* NTApplicationsFetcher.m */,
+				A78A94AF21CAC5DF0079D10B /* NTTaskRunner.h */,
+				A78A94B021CAC5DF0079D10B /* NTTaskRunner.m */,
+				A7B0761E21C18E5700AD998C /* Assets.xcassets */,
+				A7B0762021C18E5700AD998C /* MainMenu.xib */,
+				A7B0762321C18E5700AD998C /* Info.plist */,
+				A7B0762421C18E5700AD998C /* main.m */,
+			);
+			path = Notarized;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7B0761721C18E5500AD998C /* Notarized */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7B0762921C18E5700AD998C /* Build configuration list for PBXNativeTarget "Notarized" */;
+			buildPhases = (
+				A7B0761421C18E5500AD998C /* Sources */,
+				A7B0761521C18E5500AD998C /* Frameworks */,
+				A7B0761621C18E5500AD998C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Notarized;
+			productName = Notarized;
+			productReference = A7B0761821C18E5500AD998C /* Notarized.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7B0761021C18E5500AD998C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = MacPaw;
+				TargetAttributes = {
+					A7B0761721C18E5500AD998C = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A7B0761321C18E5500AD998C /* Build configuration list for PBXProject "Notarized" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7B0760F21C18E5500AD998C;
+			productRefGroup = A7B0761921C18E5500AD998C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7B0761721C18E5500AD998C /* Notarized */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7B0761621C18E5500AD998C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B0761F21C18E5700AD998C /* Assets.xcassets in Resources */,
+				A7B0762221C18E5700AD998C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7B0761421C18E5500AD998C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78A94B121CAC5DF0079D10B /* NTTaskRunner.m in Sources */,
+				A7B0762521C18E5700AD998C /* main.m in Sources */,
+				A7EC9BAD21D255A300683B7D /* NTApplicationsFetcher.m in Sources */,
+				A7BA785021D24469007F238A /* NTApplication.m in Sources */,
+				A7BA785221D24577007F238A /* NTAppDelegate.m in Sources */,
+				A78A94AE21CABCB30079D10B /* NTBoolToCheckmarkTransformer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7B0762021C18E5700AD998C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7B0762121C18E5700AD998C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7B0762721C18E5700AD998C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A7B0762821C18E5700AD998C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A7B0762A21C18E5700AD998C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S8EX82NJP6;
+				INFOPLIST_FILE = Notarized/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.macpaw.notarized.Notarized;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7B0762B21C18E5700AD998C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S8EX82NJP6;
+				INFOPLIST_FILE = Notarized/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.macpaw.notarized.Notarized;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7B0761321C18E5500AD998C /* Build configuration list for PBXProject "Notarized" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7B0762721C18E5700AD998C /* Debug */,
+				A7B0762821C18E5700AD998C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7B0762921C18E5700AD998C /* Build configuration list for PBXNativeTarget "Notarized" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7B0762A21C18E5700AD998C /* Debug */,
+				A7B0762B21C18E5700AD998C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7B0761021C18E5500AD998C /* Project object */;
+}
